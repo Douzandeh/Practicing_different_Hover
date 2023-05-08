@@ -82,3 +82,26 @@ figure {
 .hover7 figure:hover img {
   filter: blur(3px) grayscale(100%);
 }
+
+.hover8 figure img {
+  transition: 0.3s;
+  filter: blur(5px);
+}
+
+.hover8 figure:hover img {
+  filter: blur(0px);
+  transform: translateY(-10px);
+}
+
+.hover9 figure{
+    background-color: #1abc9c;
+}
+
+.hover9 figure img {
+  transition: 0.3s;
+  opacity: 1;
+}
+
+.hover9 figure:hover img {
+  opacity: 0.3;
+}
