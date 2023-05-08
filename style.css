@@ -38,3 +38,12 @@ figure {
 .hover2 figure:hover img {
   transform: scale(1);
 }
+
+.hover3 figure img {
+    transform: scale(1.4) rotate(5deg);
+    transition: 0.3s;
+  }
+  
+  .hover3 figure:hover img {
+    transform: scale(1.1) rotate(0);
+  }
