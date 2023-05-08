@@ -21,11 +21,20 @@ figure {
   overflow: hidden;
 }
 
-.hover1 figure img{
-    transition: 0.3s;
+.hover1 figure img {
+  transition: 0.3s;
 }
 
-.hover1 figure:hover img{
-    transform: scale(1.4);
-    transition: 0.3s;
+.hover1 figure:hover img {
+  transform: scale(1.4);
+  transition: 0.3s;
+}
+
+.hover2 figure img {
+  transform: scale(1.4);
+  transition: 0.3s;
+}
+
+.hover2 figure:hover img {
+  transform: scale(1);
 }
