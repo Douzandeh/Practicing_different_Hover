@@ -74,3 +74,11 @@ figure {
 .hover6 figure:hover img {
   filter: sepia(0);
 }
+
+.hover7 figure img {
+  transition: 0.3s;
+}
+
+.hover7 figure:hover img {
+  filter: blur(3px) grayscale(100%);
+}
