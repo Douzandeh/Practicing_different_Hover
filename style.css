@@ -40,10 +40,19 @@ figure {
 }
 
 .hover3 figure img {
-    transform: scale(1.4) rotate(5deg);
-    transition: 0.3s;
-  }
-  
-  .hover3 figure:hover img {
-    transform: scale(1.1) rotate(0);
-  }
+  transform: scale(1.4) rotate(5deg);
+  transition: 0.3s;
+}
+
+.hover3 figure:hover img {
+  transform: scale(1.1) rotate(0);
+}
+
+.hover4 figure img {
+ transition: 0.3s;
+ opacity: 0.3;
+}
+
+.hover4 figure:hover img {
+  opacity: 1;
+}
