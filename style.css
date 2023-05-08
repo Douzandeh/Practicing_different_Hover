@@ -49,10 +49,19 @@ figure {
 }
 
 .hover4 figure img {
- transition: 0.3s;
- opacity: 0.3;
+  transition: 0.3s;
+  opacity: 0.3;
 }
 
 .hover4 figure:hover img {
   opacity: 1;
+}
+
+.hover5 figure img {
+  transition: 0.3s;
+  filter: grayscale(100%);
+}
+
+.hover5 figure:hover img {
+  filter: grayscale(0);
 }
