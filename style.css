@@ -65,3 +65,12 @@ figure {
 .hover5 figure:hover img {
   filter: grayscale(0);
 }
+
+.hover6 figure img {
+  transition: 0.3s;
+  filter: sepia(100%);
+}
+
+.hover6 figure:hover img {
+  filter: sepia(0);
+}
